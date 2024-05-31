@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Ballite';
+    src: url('fonts/Ballite.otf') format('opentype'),
+         url('fonts/Ballite.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ballite Bold Italic';
+    src: url('fonts/Ballite.otf') format('opentype'),
+         url('fonts/Ballite.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bonello';
+    src: url('fonts/Bonello-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Bonello', sans-serif; /* Use Bonello font for inner text */
+    background-color: #f5f5dc; /* Cream color background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu-container {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title img {
+    width: 250px; /* Explicitly set the width */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-section {
+    margin: 20px 0;
+}
+
+.menu-section h2 {
+    font-family: 'Ballite Bold Italic', sans-serif; /* Use Ballite Bold Italic font */
+    font-size: 2em; /* Make section titles larger */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.menu-item {
+    font-family: 'Bonello', sans-serif; /* Use Bonello font for inner text */
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: #e6e6e6;
+}
+
+.menu-item img {
+    margin-left: 10px;
+}
