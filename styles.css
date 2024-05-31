@@ -1,25 +1,18 @@
 @font-face {
-    font-family: 'Ballite';
-    src: url('fonts/Ballite.otf') format('opentype'),
-         url('fonts/Ballite.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Ballite Bold Italic';
-    src: url('fonts/Ballite.otf') format('opentype'),
-         url('fonts/Ballite.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
     font-family: 'Bonello';
     src: url('fonts/Bonello-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'BillieSignature';
+    src: url('fonts/BillieSignature.otf') format('opentype'),
+         url('fonts/BillieSignature.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
     font-family: 'Bonello', sans-serif; /* Use Bonello font for inner text */
@@ -54,8 +47,8 @@ body {
 }
 
 .menu-section h2 {
-    font-family: 'Ballite Bold Italic', sans-serif; /* Use Ballite Bold Italic font */
-    font-size: 2em; /* Make section titles larger */
+    font-family: 'BillieSignature', sans-serif; /* Use Ballite Bold Italic font */
+    font-size: 1.75em; /* Make section titles larger */
     margin-bottom: 10px;
     font-weight: bold;
 }
